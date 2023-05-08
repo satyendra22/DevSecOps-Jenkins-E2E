@@ -1,0 +1,16 @@
+pipeline {
+  agent any
+  tools {
+    maven 'Maven_3_9_1'
+  }
+
+  stages {
+  
+              stage('SCA') {
+      steps {
+              mvn 'org.owasp:dependency-check-maven:check -Ddependency-check-format=XML'
+              step([$class: 'DependencyCheckPublisher', unstableTotalAll: '0'])     
+        }
+      }       
+    }
+}

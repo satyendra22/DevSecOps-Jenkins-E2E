@@ -1,0 +1,13 @@
+1) Create/Clone GitHub Repo
+2) Jenkins, Docker should be installed
+3) Download and run SonarQube image in Docker using commands:
+      docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+4) Setup Maven on windows
+5) Define maven configuration in Jenkins
+6) Create SNYK_TOKEN in windows
+7) Install Python and set environment variable of scripts folder for pip
+8) Install checkov using pip3
+9) Install Terraform and set environment variable in windows
+10) Install Python and do custom installation to install checkov using pip
+11) Create Personal access token in FOD and copy, username, tenant details and add in configure system (This will be setup in a script pipeline job and triggered separately
+12) Download Snyk cli, place in a folder and run it for container scan
