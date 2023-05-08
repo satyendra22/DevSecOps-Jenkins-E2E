@@ -28,18 +28,6 @@ Access to
 
   Use <kbd>CTRL</kbd>+<kbd>C</kbd> ( or access to: http://localhost:8080/exit )
 
-:clock4: For more detail
--
-   
-See [the wiki page](https://github.com/k-tamura/easybuggy/wiki).
-
-:clock4: Demo
--
-
-This demo shows: Start up -> Infinite Loop -> LDAP Injection -> UnsatisfiedLinkError -> BufferOverflowException -> Deadlock -> Memory Leak -> JVM Crash (Shut down)
-
-![demo]
-
 :clock4: EasyBuggy can reproduce:
 -
 
