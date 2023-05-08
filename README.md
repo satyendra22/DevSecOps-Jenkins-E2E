@@ -1,16 +1,14 @@
 EasyBuggy Vulnerable Web App!
 =
 
-EasyBuggy is a broken web application in order to understand behavior of bugs and vulnerabilities, for example, [memory leak, deadlock, JVM crash, SQL injection and so on](https://github.com/k-tamura/easybuggy#clock4-easybuggy-can-reproduce).
-
-![logo](https://raw.githubusercontent.com/wiki/k-tamura/easybuggy/images/mov_eb.gif)
+EasyBuggy is a broken web application in order to understand behavior of bugs and vulnerabilities, for example, [memory leak, deadlock, JVM crash, SQL injection and so on]
 
 :clock4: Quick Start
 -
 
     $ mvn clean install
 
-( or ``` java -jar easybuggy.jar ``` or deploy ROOT.war on your servlet container with [the JVM options](https://github.com/k-tamura/easybuggy/blob/master/pom.xml#L204). )
+( or ``` java -jar easybuggy.jar ``` or deploy ROOT.war on your servlet container with [the JVM options]
 
 Access to
 
@@ -40,7 +38,7 @@ See [the wiki page](https://github.com/k-tamura/easybuggy/wiki).
 
 This demo shows: Start up -> Infinite Loop -> LDAP Injection -> UnsatisfiedLinkError -> BufferOverflowException -> Deadlock -> Memory Leak -> JVM Crash (Shut down)
 
-![demo](https://github.com/k-tamura/easybuggy/blob/master/demo_eb.gif)
+![demo]
 
 :clock4: EasyBuggy can reproduce:
 -
